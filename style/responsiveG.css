@@ -1,0 +1,49 @@
+@media screen and (min-width:1200px){
+    header{
+        width: 100%;
+        font-size: 500%;
+    }
+
+    nav ul{
+        font-size: 250%;
+    }
+    .assemblage{
+        display: flex;
+        width: 100%;
+    }
+
+    section{
+        width: 70%;
+        margin-bottom:0px;
+    }
+
+    aside{
+        width: 30%;
+        margin-top: 0px;
+    }
+
+    .assemblage table{
+        border: 1px solid #000000;
+        margin:auto;
+        border-collapse: collapse;
+        width: 90%;
+    }
+    /* l'en tete du tableau */
+    .assemblage th{
+        border: 1px solid black;
+        font-size: 100%;
+        text-align: center;
+        padding: 0%;
+    }
+    
+    /* le corps du table */
+    .assemblage td{
+        border: 1px solid black;
+        text-align: center;
+        font-size: 100%;
+        padding-left:3vh ;
+        padding-right: 3vh;
+    }
+
+    
+} 

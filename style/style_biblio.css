@@ -1,29 +1,59 @@
+/* Titres */
+aside h1{
+    font-size: 3vh;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-style: normal;
+    text-align:center ;
+}
+
+aside strong{
+    font-weight: bold;
+    font-size: 150%;
+    text-decoration: underline;
+}
+aside div p{
+    font-style: normal;
+}
+
 /* Tout le tableau comportant des documents*/
 .assemblage table{
-    border: 3px solid #000000;
-    text-align: center;
+    border: 1px solid #000000;
+    margin-left: auto;
     border-collapse: collapse;
-    width: 95%;
+    width: 100%;
 }
 /* l'en tete du tableau */
 .assemblage th{
-    border: 3px solid black;
+    border: 1px solid black;
+    font-size: 70%;
     text-align: center;
-    padding: 10px;
+    padding: 1%;
 }
 
 /* le corps du table */
 .assemblage td{
-    border: 3px solid black;
+    border: 1px solid black;
     text-align: center;
-    padding-left:5px ;
-    padding-right: 5px;
+    font-size: 70%;
+    padding-left:1vh ;
+    padding-right: 1vh;
 }
 /* les liens du tableau */
 .assemblage td a{
     text-decoration: none;
     color: black;
 }
-.assemblage td a:hover{
-   color: blue;
+.assemblage  tr td:nth-child(3):hover{
+   background-color: blue;
+}
+
+/* Coloriages des lignes des tableau */
+.assemblage  thead tr:first-child{
+    background-color: rgba(45, 45, 200, 0.5);
+}
+.assemblage  tbody tr:nth-child(2n){
+    background-color: rgba(100,50,80,0.3);
+}
+.assemblage  tbody tr:nth-child(2n+1){
+    background-color: rgba(100,200,70,0.4);
 }
